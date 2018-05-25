@@ -2,7 +2,8 @@ FROM node:wheezy
 
 WORKDIR /usr/src/app
 
-RUN npm install -g bower grunt-cli && \
+RUN npm install -g bower && \
+    npm install -g grunt-cli && \
     echo '{ "allow_root": true }' > /root/.bowerrc
 
 COPY entrypoint.sh /bin/entrypoint.sh
