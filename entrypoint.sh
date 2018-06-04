@@ -2,6 +2,6 @@
 
 cd /usr/src/app
 
-grunt build
+#grunt build
 
 grunt serve
