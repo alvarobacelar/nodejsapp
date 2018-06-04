@@ -1,4 +1,4 @@
-FROM node:wheezy
+FROM node:6.14
 
 WORKDIR /usr/src/app
 
